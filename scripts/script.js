@@ -110,3 +110,6 @@ function keyboardInputHandler(e) {
 function ClearButton(){
   result.value=''
 }
+function removeCharacter(){
+  result.value = result.value.slice(0, res.value.length - 1);
+}
